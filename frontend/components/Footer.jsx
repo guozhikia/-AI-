@@ -4,9 +4,9 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg font-bold mb-4 text-primary">信息产品平台</h3>
+            <h3 className="text-lg font-bold mb-4 text-primary">素人AI深度阅读社区</h3>
             <p className="text-gray-600 mb-4">
-              提供高质量的信息产品和知识内容，帮助您实现个人和职业成长。
+              提供高质量的AI辅助阅读内容，帮助您实现深度阅读和知识成长。
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-500 hover:text-primary">
@@ -68,7 +68,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-200 mt-8 pt-8 text-center text-gray-600">
-          <p>&copy; {new Date().getFullYear()} 信息产品平台. 保留所有权利.</p>
+          <p>&copy; {new Date().getFullYear()} 素人AI深度阅读社区. 保留所有权利.</p>
         </div>
       </div>
     </footer>
